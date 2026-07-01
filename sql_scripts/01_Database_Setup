@@ -1,0 +1,30 @@
+-- ==========================================
+-- Database Setup
+-- ==========================================
+-- This script creates the database and the required tables
+-- for the Pizza Sales project.
+--
+-- Since the dataset contains a large number of records,
+-- the data is imported from CSV files into the created tables
+-- using MySQL's Import Wizard (or LOAD DATA INFILE).
+--
+-- This script only defines the database schema required
+-- before importing the dataset.
+-- ==========================================
+
+#IMPORT DATA FROM CSV TO MYSQL
+create database pizzahut;
+use pizzahut;
+
+create table orders(
+order_id int not null primary key,
+order_date date not null,
+order_time time not null);
+
+CREATE TABLE order_details (
+    order_details_id INT NOT NULL PRIMARY KEY,
+    order_id INT NOT NULL,
+    pizza_id TEXT NOT NULL,
+    quantity INT NOT NULL
+);
+

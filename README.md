@@ -1,4 +1,4 @@
-# 🍕 End-to-End Pizza Sales Analysis using MySQL
+#  🍕 End-to-End Pizza Sales Analysis using MySQL & Power BI
 
 ## 📑 Table of Contents
 
@@ -77,6 +77,7 @@ The Pizza Sales Dataset consists of four relational tables.
 - MySQL
 - MySQL Workbench
 - SQL
+- Power BI
 
 ---
 
@@ -139,6 +140,37 @@ The Pizza Sales Dataset consists of four relational tables.
 - Rolling Aggregations
 
 ---
+
+---
+
+# 📊 Power BI Dashboard
+
+After completing the SQL analysis, the cleaned dataset was visualized in **Power BI** to create an interactive business dashboard.
+
+## Dashboard KPIs
+
+- 💰 Total Revenue
+- 📦 Total Orders
+- 🍕 Total Pizzas Sold
+- 💵 Average Order Value
+
+## Dashboard Visualizations
+
+- Revenue by Pizza Category
+- Revenue by Month
+- Revenue by Pizza Size
+- Top 5 Pizzas by Revenue
+- Revenue by Weekday
+
+## Interactive Filters
+
+- Pizza Category
+- Pizza Size
+- Month
+- Date Range
+
+The dashboard enables users to explore sales performance dynamically and derive actionable business insights.
+
 
 # 📈 Key Business Insights
 
@@ -261,6 +293,12 @@ Feature category leaders in advertisements while redesigning or replacing consis
 ### Category Ranking
 
 ![Category Ranking](Screenshots/09_category_ranking.png)
+
+## Power BI Dashboard
+
+### Executive Dashboard
+
+![Power BI Dashboard](Screenshots/10_powerbi_dashboard.png)
 
 ---
 

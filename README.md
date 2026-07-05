@@ -298,7 +298,7 @@ Feature category leaders in advertisements while redesigning or replacing consis
 
 ### Executive Dashboard
 
-![Power BI Dashboard](Screenshots/10_powerbi_dashboard.png)
+![Power BI Dashboard](Screenshots/10_powerbi_dashboard.jpg)
 
 ---
 
